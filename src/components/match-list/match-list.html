@@ -1,0 +1,14 @@
+<!-- Generated template for the MatchListComponent component -->
+<ion-list inset>
+    <div ion-item *ngFor="let match of matches" (click)="itemSelected(item)">
+      <div class='column left'>{{match.startTime.getHours()}}</div>
+      <div class='column left'>
+        <div>{{ match.teamA.name }}</div>
+        <div>{{ match.teamB.name }}</div>
+      </div>
+      <div class='column right'>
+          <div>{{ match.teamAScore }}</div>
+          <div>{{ match.teamBScore }}</div>
+        </div>
+    </div> 
+  </ion-list>

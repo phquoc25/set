@@ -10,10 +10,12 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { MatchListComponent } from '../components/match-list/match-list';
 
 @NgModule({
   declarations: [
     MyApp,
+    MatchListComponent,
     AboutPage,
     ContactPage,
     HomePage,
